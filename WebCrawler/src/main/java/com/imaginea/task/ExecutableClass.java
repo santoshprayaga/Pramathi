@@ -1,6 +1,7 @@
 package com.imaginea.task;
 
 import java.io.File;
+import java.util.Locale;
 import java.util.ResourceBundle;
 
 import org.apache.log4j.Logger;
@@ -14,7 +15,7 @@ public class ExecutableClass {
 
 	private static Logger LOG = Logger.getLogger(ExecutableClass.class);
 
-	private static ResourceBundle bundle = ResourceBundle.getBundle("webcrawler");
+	private static ResourceBundle bundle = ResourceBundle.getBundle("webcrawler",Locale.ENGLISH);
 
 	public static void main(String[] args) {
 		try {
