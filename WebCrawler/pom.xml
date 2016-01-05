@@ -29,13 +29,6 @@
 	</build>
 
 	<dependencies>
-
-		<dependency>
-			<groupId>edu.uci.ics</groupId>
-			<artifactId>crawler4j</artifactId>
-			<version>3.4</version>
-		</dependency>
-
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
